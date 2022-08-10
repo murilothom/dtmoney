@@ -10,6 +10,7 @@ export const Content = styled.div`
 
   padding: 2rem 1rem 12rem;
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
 

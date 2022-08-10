@@ -6,6 +6,13 @@ export const Container = styled.div`
   gap: 2rem;
   margin-top: -10rem;
 
+  @media(max-width: 720px) {
+    overflow-y: auto;
+    /* grid-template-columns: 260px;
+    align-items: center;
+    justify-content: center; */
+  }
+
   div {
     background: var(--shape);
     padding: 1.5rem 2rem;
